@@ -43,6 +43,11 @@ gem 'aws-sdk', '~> 1.51.0'
 #Masonry Jquery Gem
 gem 'masonry-rails', '~> 0.2.1'
 
+#Will paginate Gem
+gem 'will_paginate', '~> 3.0.7'
+
+gem 'will_paginate-bootstrap', '~> 1.0.1'
+
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
